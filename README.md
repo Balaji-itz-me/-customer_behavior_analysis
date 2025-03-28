@@ -52,7 +52,7 @@ Sentiment analysis was conducted using TextBlob and VADER (NLTK).
 
 ![Sentiment Vs Time Trend (Temporal Analysis)](images/Sentiment_Trend_Over_Time.png)
 
-![Word Cloud Sentiment for Positive Reviews](images/word_cloud_positive.png)
+![Word Cloud Sentiment for Positive Reviews](images/Word_cloud_positive.png)
 
 ![Word Cloud Sentiment for Negative Reviews](images/Word_cloud_negative.png)
 
