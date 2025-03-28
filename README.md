@@ -35,7 +35,7 @@ Customer-Behavior-Analysis/
 │── csv_files/          # Original 6 CSV files used for analysis
 │── scripts/            # Python scripts for SQL connection, data processing, and analysis
 │── notebooks/          # Jupyter Notebooks for exploratory analysis and visualization
-│── results/            # Output reports, tables, and figures (if applicable)
+│── results/            # Output reports, tables, and figures
 │── images/             # Visualizations from sentiment analysis
 │── README.md           # Project documentation
 │── requirements.txt    # Dependencies for running the project
