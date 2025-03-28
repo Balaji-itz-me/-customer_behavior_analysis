@@ -60,7 +60,7 @@ Sentiment analysis was conducted using TextBlob and VADER (NLTK).
 
 ![Sentiment Distribution Heatmap](images/sentiment_heatmap.png)
 
-![Sentiment Breakdown Per Product - Stacked Bar Plot](images/sentiment_stacked_bar.png)
+![Sentiment Breakdown Per Product - Stacked Bar Plot](images/Sentiment % Breakdown per Product.png)
 
 ## Prerequisites
 Ensure you have the following installed:
