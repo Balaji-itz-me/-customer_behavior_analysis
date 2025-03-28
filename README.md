@@ -54,7 +54,7 @@ Sentiment analysis was conducted using TextBlob and VADER (NLTK).
 
 ![Word Cloud Sentiment for Positive Reviews](images/word_cloud_positive.png)
 
-![Word Cloud Sentiment for Negative Reviews](images/word_cloud_negative.png)
+![Word Cloud Sentiment for Negative Reviews](images/Word_cloud_negative.png)
 
 ![Total Reviews Vs Avg Rating Scatter Plot](images/reviews_vs_rating.png)
 
