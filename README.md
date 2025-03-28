@@ -19,10 +19,10 @@ This project analyzes customer behavior using SQL and Python. The dataset consis
 ## Problem Statement
 ShopEasy, an online retail business, is experiencing a decline in customer engagement and conversion rates, despite investing heavily in marketing campaigns. The company has observed:
 
-- Reduced Customer Interactions: Fewer customers are engaging with the website and marketing content.
-- Decreased Conversion Rates: A decline in the percentage of site visitors making purchases.
-- High Marketing Expenses: Increased spending on digital marketing but without a proportional increase in revenue.
-- Customer Feedback Gaps: Poorly understood customer preferences due to lack of structured feedback analysis.
+- **Reduced Customer Interactions**: Fewer customers are engaging with the website and marketing content.
+- **Decreased Conversion Rates**: A decline in the percentage of site visitors making purchases.
+- **High Marketing Expenses**: Increased spending on digital marketing but without a proportional increase in revenue.
+- **Customer Feedback Gaps**: Poorly understood customer preferences due to lack of structured feedback analysis.
 
 To address these challenges, ShopEasy's Marketing and Customer Experience teams have reached out for a data-driven solution that analyzes customer behavior, reviews, and journey patterns using SQL and Python.
 Understanding customer sentiment and behavior patterns to improve business decision-making using SQL-based data analysis and visualization.
@@ -30,6 +30,7 @@ Understanding customer sentiment and behavior patterns to improve business decis
 ## Project Structure
 The repository is organized as follows:
 
+```sh
 Customer-Behavior-Analysis/
 │── csv_files/          # Original 6 CSV files used for analysis
 │── scripts/            # Python scripts for SQL connection, data processing, and analysis
@@ -38,82 +39,99 @@ Customer-Behavior-Analysis/
 │── images/             # Visualizations from sentiment analysis
 │── README.md           # Project documentation
 │── requirements.txt    # Dependencies for running the project
+```
 
 ## Datasets
 The dataset was provided by the Guvi Upskill platform as part of a data science certification project.
 
 ## Model Name
-Sentiment analysis was conducted using TextBlob and VADER (NLTK).
+Sentiment analysis was conducted using **TextBlob** and **VADER (NLTK)**.
 
 ## Images
 ### Visualizations
 
 ![Visualize Sentiment Distribution](images/sentiment_distribution.png)
 
-![Sentiment Vs Time Trend (Temporal Analysis)](images/Sentiment_Trend_Over_Time.png)
+![Sentiment Vs Time Trend (Temporal Analysis)](images/sentiment_vs_time.png)
 
-![Word Cloud Sentiment for Positive Reviews](images/Word_cloud_positive.png)
+![Word Cloud Sentiment for Positive Reviews](images/word_cloud_positive.png)
 
-![Word Cloud Sentiment for Negative Reviews](images/Word_cloud_negative.png)
+![Word Cloud Sentiment for Negative Reviews](images/word_cloud_negative.png)
 
 ![Total Reviews Vs Avg Rating Scatter Plot](images/reviews_vs_rating.png)
 
 ![Sentiment Distribution Heatmap](images/sentiment_heatmap.png)
 
-![Sentiment Breakdown Per Product - Stacked Bar Plot](images/Sentiment % Breakdown per Product.png)
+![Sentiment Breakdown Per Product - Stacked Bar Plot](images/sentiment_stacked_bar.png)
 
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3+
 - MySQL Server
 - MySQL Connector for Python
-- Required Python libraries (see requirements.txt)
+- Required Python libraries (see `requirements.txt`)
 
 ## Getting Started
 1. Clone the repository:
-      git clone https://github.com/Balaji-itz-me/-customer_behavior_analysis.git
+   ```sh
+   git clone https://github.com/Balaji-itz-me/-customer_behavior_analysis.git
    cd Customer-Behavior-Analysis
-   
-2. Set up a virtual environment:
-      python -m venv venv
+   ```
+2. Set up a virtual environment (optional but recommended):
+   ```sh
+   python -m venv venv
    source venv/bin/activate  # macOS/Linux
    venv\Scripts\activate     # Windows
-   
+   ```
 3. Install dependencies:
-      pip install -r requirements.txt
-   
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## Installation Steps
 1. Clone the repository:
-       git clone https://github.com/Balaji-itz-me/-customer_behavior_analysis.git
+   ```sh
+   git clone https://github.com/Balaji-itz-me/-customer_behavior_analysis.git
    cd Customer-Behavior-Analysis
-   
+   ```
 2. Install dependencies:
-      pip install -r requirements.txt
-   
+   ```sh
+   pip install -r requirements.txt
+   ```
 3. Ensure MySQL is running and update database credentials if needed.
 
 ## How to Run the Project
 Follow these steps to execute the project:
 
-1. Ensure MySQL is Running and Set Up Database
+1. **Ensure MySQL is Running and Set Up Database**
    - Make sure MySQL is installed and running on your system.
    - Update the MySQL credentials in the script if required.
 
-2. Run the Python Scripts
-      python scripts/main.py
-   
+2. **Run the Python Scripts**
+   ```sh
+   python scripts/main.py
+   ```
 
-3. Explore Results
-   - Jupyter Notebooks (notebooks/) can be used for further analysis and visualization.
-   - Processed data and insights will be stored in the results/ folder.
-  
+3. **Explore Results**
+   - Jupyter Notebooks (`notebooks/`) can be used for further analysis and visualization.
+   - Processed data and insights will be stored in the `results/` folder.
+
 ## Future Improvements
 Here are some possible future enhancements for this project:
 
-- Enhancing Sentiment Analysis: Use advanced NLP models like BERT for better sentiment classification.
-- More Advanced Visualizations: Create interactive dashboards with Plotly or Streamlit.
-- Machine Learning Integration: Build models for customer segmentation and churn prediction.
-- Automating the Workflow: Automate SQL queries and reports for real-time insights.
+- **Enhancing Sentiment Analysis**: Use advanced NLP models like BERT for better sentiment classification.
+- **More Advanced Visualizations**: Create interactive dashboards with Plotly or Streamlit.
+- **Machine Learning Integration**: Build models for customer segmentation and churn prediction.
+- **Automating the Workflow**: Automate SQL queries and reports for real-time insights.
 
 ---
+## 👤 Author  
+
+**[BALAJI K](https://github.com/Balaji-itz-me)**  
+
+📧 *For any questions or further assistance, feel free to reach out at:*  
+✉️ [balajikamaraj99@gmail.com](mailto:balajikamaraj99@gmail.com)  
+
+💡 *Let's connect and collaborate on exciting projects!*   
+
+
