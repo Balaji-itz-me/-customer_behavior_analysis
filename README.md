@@ -50,17 +50,17 @@ Sentiment analysis was conducted using **TextBlob** and **VADER (NLTK)**.
 ## Images
 ### Visualizations
 
-![Visualize Sentiment Distribution](images/sentiment_distribution.png)
+![Visualize Sentiment Distribution](images/Visualize_Sentiment_Analyze.png)
 
-![Sentiment Vs Time Trend (Temporal Analysis)](images/sentiment_vs_time.png)
+![Sentiment Vs Time Trend (Temporal Analysis)](images/Sentiment_Trend_Over_Time.png)
 
-![Word Cloud Sentiment for Positive Reviews](images/word_cloud_positive.png)
+![Word Cloud Sentiment for Positive Reviews](images/Word_cloud_positive.png)
 
-![Word Cloud Sentiment for Negative Reviews](images/word_cloud_negative.png)
+![Word Cloud Sentiment for Negative Reviews](images/Word_cloud_negative.png)
 
-![Total Reviews Vs Avg Rating Scatter Plot](images/reviews_vs_rating.png)
+![Total Reviews Vs Avg Rating Scatter Plot](images/Total_reviews_Vs_Avg_rating_Scatter_plot.png)
 
-![Sentiment Distribution Heatmap](images/sentiment_heatmap.png)
+![Sentiment Distribution Heatmap](images/Sentiment_Distribution_Heatmap.png)
 
 ![Sentiment Breakdown Per Product - Stacked Bar Plot](images/sentiment_stacked_bar.png)
 
@@ -77,7 +77,7 @@ Ensure you have the following installed:
    git clone https://github.com/Balaji-itz-me/-customer_behavior_analysis.git
    cd Customer-Behavior-Analysis
    ```
-2. Set up a virtual environment (optional but recommended):
+2. Set up a virtual environment:
    ```sh
    python -m venv venv
    source venv/bin/activate  # macOS/Linux
