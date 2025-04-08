@@ -58,7 +58,7 @@ Sentiment analysis was conducted using **TextBlob** and **VADER (NLTK)**.
 
 ![Word Cloud Sentiment for Negative Reviews](images/Word_cloud_negative.png)
 
-![Total Reviews Vs Avg Rating Scatter Plot](images/Total_reviews_Vs_Avg_rating_Scatter_plot.png)
+![Total Reviews Vs Avg Rating Scatter Plot](images/Sentiment_breakedown_per_product_Stacked_bar_plot.png)
 
 ![Sentiment Distribution Heatmap](images/Sentiment_Distribution_Heatmap.png)
 
